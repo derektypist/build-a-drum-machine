@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+body {
+  font-family: Roboto, Arial, Verdana, sans-serif;
+  background-color: #F9FF9A;
+}
+
+#drum-machine {
+  display: grid;
+  justify-items: center;
+  grid-gap: 20px;
+  padding: 30px;
+  background-color: #FF8EF2;
+  border-radius: 1rem;
+  max-width: 96%;
+  margin: 2rem auto;
+}
+
+#pad-bank {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.drum-pad {
+  font-size: 1.4rem;
+  font-weight: bold;
+  width: 2.5em;
+  height: 2.5em;
+  background-color: #9FB7FF;
+  border-radius: 0.4rem;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#display {
+  
+  width: 60%;
+  height: 3.6em;
+  padding: 0.4rem;
+  background-color: #49FFA5;
+  border-radius: 0.6rem;
+  text-align: center;
+  
+}
